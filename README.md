@@ -21,4 +21,15 @@ Using NumPy, create the first 100 positive integers, cube every element, and res
 
 
 PART C. ABOVE-MEAN SQUARES PROBLEM 
-Create a 6 × 6 ndarray named S containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of S and store it in S mean. Then use Boolean filtering to select only the elements strictly greater than S mean. Store these values in above mean
+Create a 6 × 6 ndarray named `S` containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of `S` and store it in `S_mean`. Then use Boolean filtering to select only the elements strictly greater than `S_mean`. Store these values in `above_mean`
+
+
+
+
+
+
+
+
+
+
+
