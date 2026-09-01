@@ -11,6 +11,8 @@ PART A. REPRODUCABLE NORMALIZATION PROBLEM
 Create a reproducible random 5 × 5 integer ndarray named X. Where `¯x` is the mean of all 25 elements and `σ` is their population standard deviation as returned by NumPy’s default `std()` call. Store the normalized array in `X_normalized`.
 
 
+Methods Used:
+
 ```python
 np.random.seed(2112)
 X = np.random.randint(10, 101, size=(5, 5)) 
@@ -68,6 +70,8 @@ Using NumPy, create the first 100 positive integers, cube every element, and res
 10 × 10 ndarray named `C`. Thus, `C` begins with 13 and ends with 1003. Use a Boolean condition on C to obtain every cubed value divisible by 4. Store the selected values in `div_by_4`. Preserve NumPy’s normal row-major selection order.
 
 
+Methods Used:
+
 ```python
 c1=  (np.arange(1,101)).reshape(10,10)
 c1
@@ -100,6 +104,8 @@ PART C. ABOVE-MEAN SQUARES PROBLEM
 
 Create a 6 × 6 ndarray named `S` containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of `S` and store it in `S_mean`. Then use Boolean filtering to select only the elements strictly greater than `S_mean`. Store these values in `above_mean`
 
+
+Methods Used:
 
 ```python
 S1 = (np.arange(1,37)).reshape(6,6)
